@@ -6,11 +6,13 @@ import Review from './components/Reviews/Review';
 import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
+import Header from './components/Header/Header';
 
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/Review' element={<Review></Review>}></Route>
