@@ -8,6 +8,7 @@ import {
     Tooltip,
     Legend
   } from "recharts";
+
   const data = [
     {
       name: "Mar",
@@ -47,9 +48,6 @@ import {
     },
   
   ];
-  
-
-
 
 const Dashboard = () => {
     return (
@@ -77,6 +75,7 @@ const Dashboard = () => {
         />
         <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
       </LineChart>
+   
     );
 };
 

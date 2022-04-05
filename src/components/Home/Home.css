@@ -13,3 +13,14 @@
     color: aliceblue;
     background-color: blue;
 }
+.review{
+    border: 1px solid royalblue;
+    margin: 30px 30px;
+}
+.btn-all{
+    height: 30px;
+    width: 100px;
+    color: aliceblue;
+    background-color: blue;
+    margin-bottom: 30px; 
+}
